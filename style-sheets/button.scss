@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Share+Tech+Mono&display=swap');
+
+.button {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    outline: 1px solid black;
+    border: none;
+    background: #02987f;
+    font-family: Share Tech Mono, monospace;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    display: inline-block;
+    padding: 1px 6px;
+}
+
+#clear {
+    background: #fa9212;
+    width: 160px;
+}
+
+.sign {
+    background: #847878;
+    z-index: 2;
+}
+
+#zero {
+    width: 160px;
+}
+
+#equals {
+    background: #0c6fd3;
+    position: absolute;
+    height: 130px;
+    bottom: 5px;
+    z-index: 3;
+}
+
+#divide {
+    z-index: 0;
+}
+
+
+#substract {
+    z-index: 4;
+}
